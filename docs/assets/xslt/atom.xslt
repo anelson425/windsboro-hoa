@@ -36,7 +36,7 @@
 	
 	<meta property="og:title" content="Atom Feed (Styled)" />
 	<meta property="og:description" content="Windsboro HOA Website" />
-	<meta property="og:url" content="https://www.windsboro.org//assets/xslt/atom.xslt" />
+	<meta property="og:url" content="http://localhost:4000//assets/xslt/atom.xslt" />
 	<meta property="og:site_name" content="Windsboro HOA" />
 	
 
@@ -45,7 +45,7 @@
 	<!-- Search Engine Optimization -->
 	
 
-	<link type="text/plain" rel="author" href="https://www.windsboro.org/humans.txt" />
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt" />
 
 	
 
@@ -94,7 +94,7 @@
             
             
               <li class="divider"></li>
-              <li><a href="https://www.windsboro.org/links/">Links</a></li>
+              <li><a href="http://localhost:4000/links/">Links</a></li>
 
             
             
@@ -108,7 +108,7 @@
             
             
               <li class="divider"></li>
-              <li><a href="https://www.windsboro.org/hoa/">HOA</a></li>
+              <li><a href="http://localhost:4000/hoa/">HOA</a></li>
 
             
             
@@ -122,7 +122,7 @@
             
             
               <li class="divider"></li>
-              <li><a href="https://www.windsboro.org/contacts/">Contacts</a></li>
+              <li><a href="http://localhost:4000/contacts/">Contacts</a></li>
 
             
             
@@ -141,7 +141,7 @@
 
             
             
-              <li><a href="https://www.windsboro.org/">About Us</a></li>
+              <li><a href="http://localhost:4000/">About Us</a></li>
               <li class="divider"></li>
 
             
@@ -156,7 +156,7 @@
 
             
             
-              <li><a href="https://www.windsboro.org/amenities/">Amenities</a></li>
+              <li><a href="http://localhost:4000/amenities/">Amenities</a></li>
               <li class="divider"></li>
 
             
@@ -171,7 +171,7 @@
 
             
             
-              <li><a href="https://www.windsboro.org/gallery/">Gallery</a></li>
+              <li><a href="http://localhost:4000/gallery/">Gallery</a></li>
               <li class="divider"></li>
 
             
@@ -288,7 +288,7 @@
 		
 
 
-<script src="https://www.windsboro.org/assets/js/javascript.min.js"></script>
+<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
 
