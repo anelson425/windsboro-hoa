@@ -1,0 +1,27 @@
+<style>
+    .image-gallery {overflow: auto; margin-left: -1%!important;}
+    .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
+    .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
+    .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+    .image-gallery li a img {width: 100%; display: block;}
+</style>
+
+
+{{ $dir := "images/gallery" }}
+{{ $data_file := index .Site.Data "images" }}
+{{ $data := index $data_file "gallery" }}
+
+<ul class="image-gallery">
+
+  {{ range $data }}
+    {{- $image := resources.Get (printf "%s/%s" $dir .file_name) -}}
+    {{- $imagetitle := index (split .file_name ".") 0 -}}
+
+    <li>
+      <a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" title="{{ $imagetitle }}" class="lightbox-image" target="_blank">
+        <img src="{{ ($image.Fill "300x300 q50").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
+        <span>{{ .description }}</span>
+      </a>
+    </li>
+  {{ end }}
+</ul>

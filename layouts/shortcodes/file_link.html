@@ -1,0 +1,2 @@
+{{- $file := resources.Get (printf .Params.file) -}}
+<a href="{{ $file.Permalink }}" target="_blank"> {{ .Params.name }}</a>

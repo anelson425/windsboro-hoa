@@ -1,9 +1,0 @@
-      <div>
-        {% for link in include.links %}
-          <h4 class="font-size-h4 t10">{{ link.title }}</h4>
-          <a href="{{ link.url }}">{{ link.url }}</a>
-          <br />
-          {% if link.description %}{{ link.description }}{% endif %}
-          <br />
-        {% endfor %}
-      </div>

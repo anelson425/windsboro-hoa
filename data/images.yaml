@@ -1,0 +1,33 @@
+gallery:
+  - file_name: pond_01.jpg
+    description: Pond with Geese
+  - file_name: pond_02.jpg
+    description: Pond with Geese
+  - file_name: pond_03.jpg
+    description: Pond Bench
+  - file_name: pond_04.jpg
+    description: Pond
+  - file_name: pond_05.jpg
+    description: Pond with Geese
+  - file_name: pond_06.jpg
+    description: Pond
+  - file_name: pond_07.jpg
+    description: Pond
+  - file_name: pool_01.jpg
+    description: Pool Entrance
+  - file_name: pool_02.jpg
+    description: Pool Entrance
+  - file_name: pool_03.jpg
+    description: Pool Entrance
+  - file_name: pool_04.jpg
+    description: Pool Entryway
+  - file_name: pool_05.jpg
+    description: The Pool
+  - file_name: pool_06.jpg
+    description: The Pool
+  - file_name: pool_07.jpg
+    description: The Pool
+  - file_name: windsboro_waves_01.jpg
+    description: Windsboro Waves Meet
+  - file_name: windsboro_waves_02.jpg
+    description: Windsboro Waves Meet

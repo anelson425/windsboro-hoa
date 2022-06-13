@@ -1,0 +1,7 @@
+{{ $data := index .Site.Data "links" }}
+{{ range $data  }}
+<p>
+    <a href="{{ .url }} "target="_blank">{{ .title }}</a><br />
+    {{ .description }}<br />
+</p>
+{{ end }}

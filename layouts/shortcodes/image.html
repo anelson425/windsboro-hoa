@@ -1,0 +1,6 @@
+{{- $image := resources.Get (printf .Params.image) -}}
+{{- $title := resources.Get (printf .Params.title) -}}
+
+<a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" title="{{ $title }}" class="lightbox-image" target="_blank">
+    <img src="{{ ($image.Fill "600x758 q50").Permalink }}" alt="{{ $title }}" title="{{ $title }}">
+  </a>

@@ -1,0 +1,30 @@
+baseURL: 'https://anelson425.github.io/windsboro-hoa-v2'
+languageCode: en-us
+title: Windsboro HOA
+theme: hoa
+params:
+  masthead: images/windsboro_masthead.jpg
+menu:
+  main:
+    - name: Links
+      url: /links
+    - name: Documents
+      url: /documents
+    - name: Contacts
+      url: /contacts
+    - name: Pool
+      url: /pool
+    - name: Ponds
+      url: /ponds
+    - name: Gallery
+      url: /gallery
+    - name: HOA Dues
+      url: /hoa_dues
+    - name: Calendar
+      url: /calendar
+copyright: Windsboro HOA
+markup:
+  defaultMarkdownHandler: "goldmark"
+  goldmark:
+    renderer:
+      unsafe: true

@@ -1,0 +1,37 @@
+board_members:
+  - title: President
+    name: Steve Johnson
+    email: sjohnrem520@outlook.com
+    phone: (816) 524-7910
+  - name: Vacant
+    title: Vice President
+  - name: Ellen Buhr
+    title: Treasurer
+    email: treasurer.windsboro@gmail.com
+  - name: Craig Buhr
+    title: Secretary
+    email: cra8b@sbcglobal.net
+  - name: Jessie Banker
+    title: Member at Large
+    email: Jessi.banker@lsr7.net
+  - name: Tricia Hager
+    title: Member at Large
+    email: Tricia.Hager@gmail.com
+committee_members:
+  - name: Empty
+    title: Architectural Review
+  - name: Jim Jennings
+    title: Bylaws and Covenant & Restrictions
+    phone: (816) 554-3998
+    email: jimichellejennings@sbcglobal.net
+  - name: Roger Davenport
+    title: Grounds
+    email: cjdrld@swbell.net
+  - name: Pete Zanoni
+    title: Pond
+    email: petemona@sbcglobal.net
+  - name: Jessi Banker
+    title: Pool
+    email: jessi.banker@lsr7.net
+general_inbox:
+  email: windsboro.charleston.hoa@gmail.com

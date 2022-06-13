@@ -1,0 +1,14 @@
+{{ $data_file := index .Site.Data .Params.file_name }}
+
+{{ $data := index $data_file .Params.contact_type }}
+
+<div>
+    {{ range $data  }}
+    <p>
+        <strong>{{ .title }}</strong><br />
+        {{ if .name }}{{ .name }}<br />{{ end }}
+        {{ if .email }}<a href = "mailto:{{ .email }}">{{ .email }}</a><br />{{ end }}
+        {{ if .phone }}{{ .phone }}<br />{{ end }}
+    </p>
+    {{ end }}
+</div>

@@ -1,0 +1,31 @@
+<!-- Background image -->
+{{ $masthead := resources.Get .Site.Params.masthead }}
+
+<div
+class="bg-image"
+style="
+    background-image: url( {{ $masthead.RelPermalink}} );
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+    height: 20vh;
+">
+</div>
+
+<nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+        <a class="navbar-brand" href= {{ .Site.BaseURL }}> {{ .Site.Title }}</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main_nav">
+            <ul class="navbar-nav ms-auto">
+                {{ range .Site.Menus.main }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .URL}}"> {{ .Name }} </a>
+                    </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</nav>
