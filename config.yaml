@@ -1,4 +1,4 @@
-baseURL: 'https://anelson425.github.io/windsboro-hoa'
+baseURL: 'https://www.windsboro.org'
 languageCode: en-us
 title: Windsboro HOA
 theme: hoa
@@ -28,3 +28,4 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+google_analytics_tracking_id: UA-139748334-1
