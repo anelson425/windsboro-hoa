@@ -1,11 +1,10 @@
 board_members:
   - title: President
-    name: Steve Johnson
-    email: sjohnrem520@outlook.com
-    phone: (816) 524-7910
+    name: Brendon Collier
+    email: brendon@brendoncollier.com
   - name: Jessi Banker
     title: Vice President
-    email: Jessi.banker@lsr7.net
+    email: jessimbanker@gmail.com
   - name: Andy Nelson
     title: Treasurer
     email: treasurer.windsboro@gmail.com
@@ -18,10 +17,9 @@ board_members:
 committee_members:
   - name: Jessi Banker
     title: Architectural Review
-    email: jessi.banker@lsr7.net
+    email: jessimbanker@gmail.com
   - name: Jim Jennings
     title: Bylaws and Covenant & Restrictions
-    phone: (816) 554-3998
     email: jimichellejennings@sbcglobal.net
   - name: Nancy Jenkins
     title: Grounds
@@ -31,6 +29,6 @@ committee_members:
     email: nancy@jenkinsim.com
   - name: Jessi Banker
     title: Pool
-    email: jessi.banker@lsr7.net
+    email: jessimbanker@gmail.com
 general_inbox:
   email: windsboro.charleston.hoa@gmail.com
