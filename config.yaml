@@ -21,6 +21,8 @@ menu:
       url: /hoa_dues
     - name: Calendar
       url: /calendar
+    # - name: New Resident Information
+    #   url: /new_resident_information
 copyright: Windsboro HOA
 markup:
   defaultMarkdownHandler: "goldmark"
@@ -28,4 +30,4 @@ markup:
     renderer:
       unsafe: true
 baseURL: 'https://www.windsboro.org'
-google_analytics_tracking_id: UA-139748334-1
+googleAnalyticsID: G-VE91XK8WKZ
