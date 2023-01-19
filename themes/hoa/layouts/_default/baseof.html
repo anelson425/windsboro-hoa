@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        {{ if .Site.Params.GoogleAnalyticsID }}
-        {{ partial "analytics-gtag.html" . }}
-        {{ end }}        {{- partial "head.html" . -}}
+        {{- partial "head.html" . -}}
     </head>
     <body>
         <header>
