@@ -21,10 +21,8 @@ menu:
       url: /hoa_dues
     - name: Calendar
       url: /calendar
-    - name: Resident Portal
-      url: 'https://www.payhoa.com/auth/login'
-    # - name: New Resident Information
-    #   url: /new_resident_information
+    - name: New Resident Information
+      url: /new_resident_information
 copyright: Windsboro HOA
 markup:
   defaultMarkdownHandler: "goldmark"

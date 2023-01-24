@@ -25,7 +25,7 @@ When making your payment, ensure your lot number is visible, preferably written 
 
 The HOA does not offer refunds and all transactions are final. Your cancelled check serves as your receipt of payment.
 
-Starting in 2023, the HOA now accepts electronic payments. You can register for your PayHOA account by clicking [here](https://app.payhoa.com/auth/join/20117-windsboro). Online payments do come with processing fees of roughly $12 for credit card and $1 for bank transfer.
+Starting in 2023, the HOA now accepts electronic payments. You can register for your PayHOA account by clicking <a href="https://app.payhoa.com/auth/join/20117-windsboro" target="_blank">here</a>. Online payments do come with processing fees of roughly $12 for credit card and $1 for bank transfer.
 
 In accordance with Article 5, Section 6 of the Covenent and Restrictions: 
 <pre>
