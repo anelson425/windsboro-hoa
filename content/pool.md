@@ -3,7 +3,7 @@ title = "The Pool"
 description = "The Pool"
 +++
 
-Thank you to all neighborhood volunteers who make our pool a great place to spend your summer here at Windsboro.
+Thank you to all neighborhood volunteers who make our pool a great place to spend your summer here at Windsboro. If you are in need of a pool card, please request one through your PayHOA account. If you do not have one, you can register for your PayHOA account by clicking <a href="https://app.payhoa.com/auth/join/20117-windsboro" target="_blank">here</a>.
 
 ### Hours
 <p>

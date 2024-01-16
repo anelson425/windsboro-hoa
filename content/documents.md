@@ -14,7 +14,6 @@ Windsboro HOA Bylaws, along with our covenants and restrictions protect each hom
 <h3>Architectural Committee Review Form</h3>
 
 Are you planning to update or make external improvements to your Windsboro home? Please make sure you have submitted a copy of the Request for Architectural Committee Approval form along with your proposal of this work to the architectural committee chair or Windsboro general inbox. The Architectural Committee will review your proposal for the alterations to your property in accordance with existing topography, relation to surrounding structures and general harmony of existing appearance. For additional details, please review articles 7 and 8 of the covenants for general architectural guidance.
-<ul>
-    <li>{{< file_link file="documents/architecture_review_form.pdf" name="Architectural Review Form" >}}</li>
-</ul>
+
+Architectural request changes are managed through PayHOA and you can make your request through the portal. You can register for your PayHOA account by clicking <a href="https://app.payhoa.com/auth/join/20117-windsboro" target="_blank">here</a>.
 

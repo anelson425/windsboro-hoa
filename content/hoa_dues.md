@@ -13,19 +13,11 @@ description = "HOA Dues"
     }
 </style>
 
-The Windsboro HOA dues are $400 per year. Dues for 2023 are due on March 31, 2023. If you would like to pay by mail, you can mail a check to the following address:
-
-<div class="mail">
-    Windsboro HOA Treasurer<br />
-    200 SE Windsboro Drive<br />
-    Lee's Summit, MO 64063<br />
-</div>
-
-When making your payment, ensure your lot number is visible, preferably written in the check’s memo field.
+The Windsboro HOA dues are $550 per year. Dues for 2024 are due on March 31, 2024. If you would like to pay by mail, you will receive an invoice for your dues along with a remittence slip in January. The remittance slip will contain an address to mail dues to our payment processor.
 
 The HOA does not offer refunds and all transactions are final. Your cancelled check serves as your receipt of payment.
 
-Starting in 2023, the HOA now accepts electronic payments. You can register for your PayHOA account by clicking <a href="https://app.payhoa.com/auth/join/20117-windsboro" target="_blank">here</a>. Online payments do come with processing fees of roughly $12 for credit card and $1 for bank transfer.
+The HOA accepts electronic payments. You can register for your PayHOA account by clicking <a href="https://app.payhoa.com/auth/join/20117-windsboro" target="_blank">here</a>. Online payments do come with processing fees of roughly $16 for credit card and $1 for bank transfer.
 
 In accordance with Article 5, Section 6 of the Covenent and Restrictions: 
 <pre>
