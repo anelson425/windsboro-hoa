@@ -13,7 +13,7 @@ description = "HOA Dues"
     }
 </style>
 
-The Windsboro HOA dues are $550 per year. Dues for 2024 are due on March 31, 2024. If you would like to pay by mail, you will receive an invoice for your dues along with a remittence slip in January. The remittance slip will contain an address to mail dues to our payment processor.
+The Windsboro HOA dues are $670.90 per year. Dues for 2024 are due on March 31, 2025. If you would like to pay by mail, you will receive an invoice for your dues along with a remittence slip in January. The remittance slip will contain an address to mail dues to our payment processor.
 
 The HOA does not offer refunds and all transactions are final. Your cancelled check serves as your receipt of payment.
 
