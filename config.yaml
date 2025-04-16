@@ -23,6 +23,8 @@ menu:
       url: /calendar
     - name: New Resident Information
       url: /new_resident_information
+    - name: Trash
+      url: /trash
 copyright: Windsboro HOA
 markup:
   defaultMarkdownHandler: "goldmark"
