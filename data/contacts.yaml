@@ -1,33 +1,25 @@
 board_members:
   - title: President
     name: Brendon Collier
-    email: windsboro.charleston.hoa@gmail.com
   - name: Jessi Banker
     title: Vice President
-    email: jessimbanker@gmail.com
   - name: Andy Nelson
     title: Treasurer
     email: treasurer.windsboro@gmail.com
-  - name: Tricia Hager
+  - name: Vacant
     title: Secretary
-    email: Tricia.Hager@gmail.com
   - name: Stan Chandler
     title: Member at Large
-    email: schandler1616@gmail.com
 committee_members:
   - name: Jessi Banker
     title: Architectural Review
-    email: jessimbanker@gmail.com
   - name: Not Filled
     title: Bylaws and Covenant & Restrictions
   - name: Stan Chandler
     title: Grounds
-    email: schandler1616@gmail.com
   - name: Stan Chandler
     title: Pond
-    email: schandler1616@gmail.com
   - name: Jessi Banker
     title: Pool
-    email: jessimbanker@gmail.com
 general_inbox:
   email: windsboro.charleston.hoa@gmail.com
