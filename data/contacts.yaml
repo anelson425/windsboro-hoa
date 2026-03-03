@@ -1,25 +1,25 @@
 board_members:
   - title: President
     name: Brendon Collier
-  - name: Jessi Banker
+  - name: Jim Jennings
     title: Vice President
   - name: Andy Nelson
     title: Treasurer
     email: treasurer.windsboro@gmail.com
-  - name: Vacant
+  - name: Bailey Carr
     title: Secretary
   - name: Stan Chandler
     title: Member at Large
 committee_members:
-  - name: Jessi Banker
+  - name: Stan Chandler
     title: Architectural Review
-  - name: Not Filled
+  - name: Jim Jennings
     title: Bylaws and Covenant & Restrictions
   - name: Stan Chandler
     title: Grounds
   - name: Stan Chandler
     title: Pond
-  - name: Jessi Banker
+  - name: Andy Nelson
     title: Pool
 general_inbox:
   email: windsboro.charleston.hoa@gmail.com
