@@ -3,7 +3,7 @@ title = "HOA Dues"
 description = "HOA Dues"
 +++
 
-Annual HOA dues are **$670.90 per year**. Dues for 2025 are due by **March 31, 2026**.
+Annual HOA dues are **$799.00 per year**. Dues for 2026 are due by **January 1, 2026**.
 
 ### Payment Options
 
