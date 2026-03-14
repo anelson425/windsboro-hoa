@@ -1,6 +1,6 @@
 +++
 title = "Gallery"
-description = "Photos around Windsboro"
+description = "Photos of the Windsboro neighborhood — ponds, community spaces, and more. Submit your own photos to be featured."
 +++
 
 

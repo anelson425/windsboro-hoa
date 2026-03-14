@@ -1,6 +1,6 @@
 +++
 title = "Documents"
-description = "Documents"
+description = "Windsboro HOA governing documents including bylaws, covenants, and the architectural change request process."
 +++
 
 <h3>Bylaws and Covenants &amp; Restrictions</h3>
@@ -18,5 +18,5 @@ Planning an exterior improvement or modification to your home? All changes to th
 
 Requests are submitted through the PayHOA portal. The committee reviews proposals for consistency with the surrounding neighborhood, existing topography, and the standards outlined in Articles 7 and 8 of the Covenants. Submitting your request before beginning any work helps avoid delays and ensures your project stays in compliance.
 
-You can register for your PayHOA account and submit your request by clicking <a href="https://app.payhoa.com/auth/join/20117-windsboro" target="_blank">here</a>.
+{{< payhoa_link "Register for PayHOA and submit your request here" >}}.
 

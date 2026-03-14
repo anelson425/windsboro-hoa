@@ -3,6 +3,7 @@ title: Windsboro HOA
 theme: hoa
 params:
   masthead: images/windsboro_masthead.jpg
+  payhoa_url: https://app.payhoa.com/auth/join/20117-windsboro
 menu:
   main:
     - name: Links

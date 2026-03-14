@@ -1,6 +1,6 @@
 +++
 title = "Trash"
-description = "Trash"
+description = "Information about the Windsboro community-wide trash and recycling service, including schedules and FAQs."
 +++
 
 Beginning July 2025, trash and recycling service is provided to all Windsboro residents as a community-wide program managed by the Windsboro Homes Association. This initiative was approved by homeowner vote with **158 in favor, 19 against, and 43 abstentions**.

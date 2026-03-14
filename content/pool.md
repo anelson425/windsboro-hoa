@@ -1,9 +1,9 @@
 +++
 title = "The Pool"
-description = "The Pool"
+description = "Windsboro community pool hours, rules, pool card registration, and information about the Windsboro Waves swim team."
 +++
 
-Our community pool is one of Windsboro's favorite summer gathering spots. A big thank you to the volunteers who help keep it a wonderful place for families all season long. Pool access requires a pool card — request yours through your PayHOA account. New to PayHOA? Register by clicking <a href="https://app.payhoa.com/auth/join/20117-windsboro" target="_blank">here</a>.
+Our community pool is one of Windsboro's favorite summer gathering spots. A big thank you to the volunteers who help keep it a wonderful place for families all season long. Pool access requires a pool card — request yours through your PayHOA account. New to PayHOA? {{< payhoa_link "Register here" >}}.
 
 ### Hours
 

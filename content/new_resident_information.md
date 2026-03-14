@@ -1,13 +1,13 @@
 +++
 title = "New Resident Information"
-description = "New Resident Information"
+description = "Everything new Windsboro residents need to know — PayHOA registration, community rules, contacts, and events."
 +++
 
 Welcome to Windsboro! We're glad you're here. This page has everything you need to get settled into the community.
 
 ### Get Started with PayHOA
 
-All HOA activity is managed through our <a href="https://app.payhoa.com/auth/join/20117-windsboro" target="_blank">PayHOA portal</a>. Once registered, you can:
+All HOA activity is managed through our {{< payhoa_link "PayHOA portal" >}}. Once registered, you can:
 
 * Pay your annual HOA dues
 * Request a pool access card

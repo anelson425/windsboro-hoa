@@ -1,6 +1,6 @@
 +++
 title = "The Ponds"
-description = "The Ponds"
+description = "Learn about Windsboro's five community ponds — wildlife, fishing, and pond committee maintenance."
 +++
 
 Windsboro's five ponds are a defining feature of our neighborhood, providing natural beauty and habitat for local wildlife throughout the year. The Pond Committee actively monitors and maintains the ponds, including dam structures, outlet structures, embankments, and sediment forebay areas.
