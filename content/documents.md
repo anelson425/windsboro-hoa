@@ -3,17 +3,20 @@ title = "Documents"
 description = "Documents"
 +++
 
-<h3>Windsboro HOA Bylaws and Amended Covenants and Restrictions</h3>
+<h3>Bylaws and Covenants &amp; Restrictions</h3>
 
-Windsboro HOA Bylaws, along with our covenants and restrictions protect each homeowner and help our community to maintain the lifestyle we all were seeking when purchasing our homes here in Windsboro. Each homeowner has a voice in our community. We encourage everyone to attend our annual homeowner's meetings, volunteer for one of our committees or to run for a board member position.
+The Windsboro HOA Bylaws and Covenants &amp; Restrictions exist to protect homeowners and preserve the character and quality of our community. These governing documents outline the rights and responsibilities of every resident. We encourage all homeowners to review them and to get involved — attend our annual meeting, join a committee, or consider running for a board position.
+
 <ul>
     <li>{{< file_link file="documents/windsboro_hoa_bylaws.pdf" name="Windsboro HOA Bylaws" >}}</li>
     <li>{{< file_link file="documents/windsboro_hoa_covenants.pdf" name="Windsboro HOA Covenants" >}}</li>
 </ul>
 
-<h3>Architectural Committee Review Form</h3>
+<h3>Architectural Change Requests</h3>
 
-Are you planning to update or make external improvements to your Windsboro home? Please make sure you have submitted a copy of the Request for Architectural Committee Approval form along with your proposal of this work to the architectural committee chair or Windsboro general inbox. The Architectural Committee will review your proposal for the alterations to your property in accordance with existing topography, relation to surrounding structures and general harmony of existing appearance. For additional details, please review articles 7 and 8 of the covenants for general architectural guidance.
+Planning an exterior improvement or modification to your home? All changes to the outside of your property — including fences, sheds, landscaping, additions, and paint colors — require prior approval from the Architectural Committee.
 
-Architectural request changes are managed through PayHOA and you can make your request through the portal. You can register for your PayHOA account by clicking <a href="https://app.payhoa.com/auth/join/20117-windsboro" target="_blank">here</a>.
+Requests are submitted through the PayHOA portal. The committee reviews proposals for consistency with the surrounding neighborhood, existing topography, and the standards outlined in Articles 7 and 8 of the Covenants. Submitting your request before beginning any work helps avoid delays and ensures your project stays in compliance.
+
+You can register for your PayHOA account and submit your request by clicking <a href="https://app.payhoa.com/auth/join/20117-windsboro" target="_blank">here</a>.
 

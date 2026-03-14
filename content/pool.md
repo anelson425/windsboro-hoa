@@ -3,29 +3,29 @@ title = "The Pool"
 description = "The Pool"
 +++
 
-Thank you to all neighborhood volunteers who make our pool a great place to spend your summer here at Windsboro. If you are in need of a pool card, please request one through your PayHOA account. If you do not have one, you can register for your PayHOA account by clicking <a href="https://app.payhoa.com/auth/join/20117-windsboro" target="_blank">here</a>.
+Our community pool is one of Windsboro's favorite summer gathering spots. A big thank you to the volunteers who help keep it a wonderful place for families all season long. Pool access requires a pool card — request yours through your PayHOA account. New to PayHOA? Register by clicking <a href="https://app.payhoa.com/auth/join/20117-windsboro" target="_blank">here</a>.
 
 ### Hours
-<p>
-Memorial Day Weekend through Labor Day Weekend</br>
-10am - 10pm
-</p>
+
+Memorial Day Weekend through Labor Day Weekend
+10:00 AM – 10:00 PM
 
 ### Rules
+
 * Children age 12 and under must be accompanied by an adult (age 18 or older) in the pool area.
-* No Lifeguard on duty. Swim at your own risk.
+* No lifeguard on duty. Swim at your own risk.
 * No diving is allowed.
-* Animals are not allowed in or around the Swimming Poolm except that service animals as defined by the Americans with Disabilities Act must be allowed on pool decks and any other places the public is allowed. Service animals are not allowed in the water.
-* Glass containers are not allowed in or around the swimming pool.
-* Children who are not toilet trained shall wear tight fitting plastic underwear or swim diapers that will prevent leakage.
-* The wading pool should be reserved for toddlers 4 years and under.
-* No person with open cuts, sores, lesions, infections, obvious communicable diseases, or diarrhea shall use the swimming pool.
-* Refrain from jumping or diving from the wall separating the wading pool from the main pool. Do not hang or climb on the railing.
-* Exit the pool immediately if severe weather approaches. Never swim if lightning is in the area.
-* A resident must accompany visitors to the pool. Residents are responsible for supervision and behaviour of guests.</br>
-* The pool is not available for individual residents to close for private events/parties.
-* Every Windsboro resident is responsible for the pool and surrounding area. If you see a mess, please help out and clean it up!
+* Animals are not permitted in or around the pool, except service animals as defined by the Americans with Disabilities Act. Service animals are not allowed in the water.
+* Glass containers are not allowed in or around the pool.
+* Children who are not toilet trained must wear tight-fitting plastic underwear or swim diapers.
+* The wading pool is reserved for toddlers age 4 and under.
+* Anyone with open cuts, sores, infections, communicable diseases, or illness should not use the pool.
+* Do not jump or dive from the wall separating the wading pool from the main pool. Do not hang or climb on the railings.
+* Exit the pool immediately when severe weather approaches. Never swim when lightning is in the area.
+* Residents must accompany all guests and are responsible for their supervision and behavior.
+* The pool is not available for private events or parties.
+* Help keep our pool clean — if you see a mess, please clean it up. We all share this space!
 
 ### Swim Team
 
-Windsboro Waves are a recreational summer swim team open to all kids 6 to 18 who live in the Highland Park Elementary attendance area. The season runs from Memorial Day through mid-July and includes daily weekday morning practices at the Windsboro pool and weekly swim meets against other L.S. subdivision teams. Practices and meets focus on stroke refinement and improving endurance in a fun, supportive team environment. Registration begins in April. For more information about the Waves, contact [Ryan Tate](mailto:rtate@lockton.com) or [Jessie Banker](mailto:jessi.banker@ls7.net) or visit the [Waves homepage](https://windsboro.swimtopia.com).
+Windsboro Waves are a recreational summer swim team open to all kids 6 to 18 who live in the Highland Park Elementary attendance area. The season runs from Memorial Day through mid-July and includes daily weekday morning practices at the Windsboro pool and weekly swim meets against other L.S. subdivision teams. Practices and meets focus on stroke refinement and improving endurance in a fun, supportive team environment. Registration begins in April. For more information about the Waves, visit the [Waves homepage](https://windsboro.swimtopia.com).
