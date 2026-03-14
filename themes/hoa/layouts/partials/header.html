@@ -1,31 +1,41 @@
-<!-- Background image -->
 {{ $masthead := resources.Get .Site.Params.masthead }}
 
-<div
-class="bg-image"
-style="
-    background-image: url( {{ $masthead.RelPermalink}} );
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position: center center;
-    height: 20vh;
-">
-</div>
-
-<nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark bg-success">
+<nav id="navbar_top" class="navbar navbar-expand-lg fixed-top hoa-navbar">
     <div class="container">
-        <a class="navbar-brand" href= {{ .Site.BaseURL }}> {{ .Site.Title }}</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+        <a class="navbar-brand text-white fw-bold" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+        <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="main_nav">
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
                 {{ range .Site.Menus.main }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ .URL}}"> {{ .Name }} </a>
-                    </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="{{ .URL }}">{{ .Name }}</a>
+                </li>
                 {{ end }}
+                <li class="nav-item ms-lg-2">
+                    <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">☾</button>
+                </li>
             </ul>
         </div>
     </div>
 </nav>
+
+{{ if .IsHome }}
+<div class="hoa-hero" style="background-image: url({{ $masthead.RelPermalink }});">
+    <div class="hoa-hero-overlay"></div>
+    <div class="container py-5">
+        <div class="hoa-hero-content">
+            <h1>{{ .Title }}</h1>
+            <p class="lead mb-4">220 homes in Lee's Summit, Missouri &mdash; pool, ponds, and community.</p>
+            <a href="#content" class="btn btn-light btn-lg px-4">Learn More</a>
+        </div>
+    </div>
+</div>
+{{ else }}
+<div class="page-header-band">
+    <div class="container">
+        <h1>{{ .Title }}</h1>
+    </div>
+</div>
+{{ end }}

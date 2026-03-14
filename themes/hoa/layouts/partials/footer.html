@@ -1,7 +1,27 @@
-
-<div class="container">
-    <div>
-        <hr/>
-        <p class="text-center">Copyright (c) {{ now.Format "2006"}} {{ .Site.Copyright }}</p>
+<footer class="site-footer">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <p class="footer-heading">Windsboro HOA</p>
+                <p style="font-size:0.9rem;">A community of 220 homes located between Langsford Road and 50 Highway, Lee's Summit, Missouri.</p>
+            </div>
+            <div class="col-md-4">
+                <p class="footer-heading">Quick Links</p>
+                <ul class="footer-links list-unstyled">
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <p class="footer-heading">Community Resources</p>
+                <ul class="footer-links list-unstyled">
+                    <li><a href="https://www.cityofleessummit.org" target="_blank" rel="noopener">City of Lee's Summit</a></li>
+                    <li><a href="https://www.ls-r7.k12.mo.us" target="_blank" rel="noopener">Lee's Summit R-7 Schools</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright &copy; {{ now.Format "2006" }} {{ .Site.Copyright }}. All rights reserved.</p>
     </div>
-</div>
+</footer>

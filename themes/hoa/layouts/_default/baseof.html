@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         {{- partial "head.html" . -}}
     </head>
     <body>
-        <header>
-            {{- partial "header.html" . -}}
-        </header>
+        {{- partial "header.html" . -}}
         <main id="content">
             {{- block "main" . }}{{- end }}
         </main>
-        <br />
-        <footer>
-            {{- partial "footer.html" . -}}
-        </footer>
+        {{- partial "footer.html" . -}}
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="{{ .Site.BaseURL }}/js/script.js"></script>
         {{- partial "script.html" . -}}
     </body>
 </html>

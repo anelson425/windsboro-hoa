@@ -1,17 +1,19 @@
 +++
 title = "Contacts"
-description = "These are the HOA contacts"
+description = "Contact the Windsboro HOA board members, committee members, or the general inbox."
 +++
 
+Have a question or want to get involved? Reach out to the general inbox or contact a board or committee member directly below.
+
 <div align="center">
-    Please contact the general inbox at: {{< general_contact >}}
+    General inquiries: {{< general_contact >}}
 </div>
-<div align="center">
-    <div style="width: 50%; float: left;"> 
+<div class="row mt-3">
+    <div class="col-md-6">
         <h3>Board Members</h3>
         {{< contacts file_name="contacts" contact_type="board_members" >}}
     </div>
-    <div style="margin-left: 50%;"> 
+    <div class="col-md-6">
         <h3>Committee Members</h3>
         {{< contacts file_name="contacts" contact_type="committee_members" >}}
     </div>

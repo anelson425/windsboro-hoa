@@ -1,23 +1,213 @@
-.content {
-  padding-top: 20px;
+/* ============================================
+   Windsboro HOA - Custom Styles
+   ============================================ */
+
+/* --- Variables --- */
+:root {
+  --hoa-green: #2a7a4f;
+  --hoa-green-dark: #1d5c3a;
+  --hoa-green-mid: #236645;
+  --hoa-green-light: #e8f5ee;
+  --hoa-accent: #e8a020;
+  --navbar-height: 60px;
+  --transition: 0.2s ease;
 }
 
+/* --- Base typography --- */
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+/* ============================================
+   Navbar
+   ============================================ */
+.hoa-navbar {
+  background: linear-gradient(135deg, var(--hoa-green-dark) 0%, var(--hoa-green-mid) 100%);
+  min-height: var(--navbar-height);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hoa-navbar .navbar-brand {
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+}
+
+.hoa-navbar .nav-link {
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.7rem !important;
+  border-radius: 6px;
+  transition: background var(--transition);
+}
+
+.hoa-navbar .nav-link:hover,
+.hoa-navbar .nav-link.active {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.hoa-navbar .nav-link.active {
+  font-weight: 600;
+}
+
+/* ============================================
+   Dark mode toggle
+   ============================================ */
+.dark-mode-toggle {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #fff;
+  border-radius: 6px;
+  padding: 0.3rem 0.65rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  line-height: 1;
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.dark-mode-toggle:hover {
+  background: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+/* ============================================
+   Hero (homepage)
+   ============================================ */
+.hoa-hero {
+  position: relative;
+  min-height: 55vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hoa-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.hoa-hero-content {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.hoa-hero-content h1 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 700;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0.75rem;
+}
+
+.hoa-hero-content .lead {
+  font-size: clamp(0.95rem, 1.5vw, 1.15rem);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  opacity: 0.93;
+  margin-bottom: 1.5rem;
+}
+
+.hoa-hero-content .btn-light {
+  font-weight: 600;
+  color: var(--hoa-green-dark);
+}
+
+/* ============================================
+   Page header band (inner pages)
+   ============================================ */
+.page-header-band {
+  background: linear-gradient(135deg, var(--hoa-green-dark) 0%, var(--hoa-green-mid) 100%);
+  padding: 2.5rem 0 2rem;
+  color: #fff;
+  margin-top: var(--navbar-height);
+}
+
+.page-header-band h1 {
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ============================================
+   Content area
+   ============================================ */
+.content {
+  padding: 2.5rem 0 3rem;
+}
+
+.content h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--hoa-green-dark);
+}
+
+.content h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  color: var(--hoa-green-dark);
+}
+
+.content a {
+  color: var(--hoa-green);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.content a:hover {
+  color: var(--hoa-green-dark);
+}
+
+.content table {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+}
+
+.content table th,
+.content table td {
+  padding: 0.6rem 0.9rem;
+  border: 1px solid #dee2e6;
+}
+
+.content table th {
+  background: var(--hoa-green-light);
+  font-weight: 600;
+}
+
+/* ============================================
+   Gallery
+   ============================================ */
 div.gallery {
-  border: 1px solid #ccc;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow var(--transition), transform var(--transition);
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border-color: #aaa;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 div.desc {
-  padding: 15px;
+  padding: 10px 14px;
   text-align: center;
+  font-size: 0.875rem;
+  color: #666;
 }
 
 * {
@@ -47,4 +237,94 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+.site-footer {
+  background: #111827;
+  color: rgba(255, 255, 255, 0.72);
+  padding: 3rem 0 1.75rem;
+  margin-top: 2rem;
+}
+
+.site-footer a {
+  color: rgba(255, 255, 255, 0.72);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.site-footer a:hover {
+  color: #fff;
+}
+
+.site-footer .footer-heading {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  margin-bottom: 0.85rem;
+}
+
+.site-footer .footer-links li {
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+}
+
+.site-footer hr {
+  border-color: rgba(255, 255, 255, 0.12);
+  margin: 1.75rem 0 1.25rem;
+}
+
+.site-footer .copyright {
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.45);
+  text-align: center;
+  margin: 0;
+}
+
+/* ============================================
+   Bootstrap 5.3 dark mode overrides
+   ============================================ */
+[data-bs-theme="dark"] {
+  --hoa-green: #4cba7a;
+  --hoa-green-dark: #3aa068;
+  --hoa-green-light: #1a2e22;
+}
+
+[data-bs-theme="dark"] .content h2,
+[data-bs-theme="dark"] .content h3 {
+  color: var(--hoa-green);
+}
+
+[data-bs-theme="dark"] .content a {
+  color: var(--hoa-green);
+}
+
+[data-bs-theme="dark"] .content a:hover {
+  color: #6bd494;
+}
+
+[data-bs-theme="dark"] .content table th {
+  background: #1e3a2a;
+  border-color: #2d4a38;
+  color: inherit;
+}
+
+[data-bs-theme="dark"] .content table td {
+  border-color: #2d4a38;
+}
+
+[data-bs-theme="dark"] div.gallery {
+  border-color: #333;
+}
+
+[data-bs-theme="dark"] div.desc {
+  color: #aaa;
+}
+
+[data-bs-theme="dark"] .dark-mode-toggle {
+  /* inherits from base — stays white text on dark navbar */
 }
