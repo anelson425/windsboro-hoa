@@ -1,7 +1,9 @@
 {{ $data := index .Site.Data "links" }}
-{{ range $data  }}
-<p>
-    <a href="{{ .url }} "target="_blank">{{ .title }}</a><br />
-    {{ .description }}<br />
-</p>
-{{ end }}
+<div class="links-grid">
+    {{ range $data }}
+    <p>
+        <a href="{{ .url }}" target="_blank" rel="noopener">{{ .title }}</a>
+        {{ .description }}
+    </p>
+    {{ end }}
+</div>
