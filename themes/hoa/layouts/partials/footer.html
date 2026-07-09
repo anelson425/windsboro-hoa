@@ -1,23 +1,38 @@
 <footer class="site-footer">
     <div class="container">
         <div class="row g-4">
-            <div class="col-md-4">
-                <p class="footer-heading">Windsboro HOA</p>
-                <p style="font-size:0.9rem;">A community of 220 homes located between Langsford Road and 50 Highway, Lee's Summit, Missouri.</p>
+            <div class="col-md-3 col-6">
+                <div class="footer-brand">
+                    <span class="footer-brand-mark">W</span>
+                    <span class="footer-brand-name">Windsboro HOA</span>
+                </div>
+                <p class="footer-blurb">A community of 220 homes between Langsford Road and 50 Highway in Lee's Summit, Missouri.</p>
             </div>
-            <div class="col-md-4">
-                <p class="footer-heading">Quick Links</p>
-                <ul class="footer-links list-unstyled">
-                    {{ range .Site.Menus.main }}
-                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                    {{ end }}
+            <div class="col-md-3 col-6">
+                <p class="footer-heading">Explore</p>
+                <ul class="footer-links">
+                    <li><a href="{{ "pool" | relLangURL }}">Pool</a></li>
+                    <li><a href="{{ "ponds" | relLangURL }}">Ponds</a></li>
+                    <li><a href="{{ "gallery" | relLangURL }}">Gallery</a></li>
+                    <li><a href="{{ "calendar" | relLangURL }}">Calendar</a></li>
                 </ul>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3 col-6">
+                <p class="footer-heading">Residents</p>
+                <ul class="footer-links">
+                    <li><a href="{{ "hoa_dues" | relLangURL }}">HOA Dues</a></li>
+                    <li><a href="{{ "documents" | relLangURL }}">Documents</a></li>
+                    <li><a href="{{ "new_resident_information" | relLangURL }}">New Residents</a></li>
+                    <li><a href="{{ "trash" | relLangURL }}">Trash</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-6">
                 <p class="footer-heading">Community Resources</p>
-                <ul class="footer-links list-unstyled">
-                    <li><a href="https://www.cityofleessummit.org" target="_blank" rel="noopener">City of Lee's Summit</a></li>
-                    <li><a href="https://www.ls-r7.k12.mo.us" target="_blank" rel="noopener">Lee's Summit R-7 Schools</a></li>
+                <ul class="footer-links">
+                    <li><a href="https://cityofls.net/" target="_blank" rel="noopener">City of Lee's Summit</a></li>
+                    <li><a href="https://hpe.lsr7.org/" target="_blank" rel="noopener">Lee's Summit R-7 Schools</a></li>
+                    <li><a href="https://www.facebook.com/groups/windsboro.hoa" target="_blank" rel="noopener">HOA Facebook Group</a></li>
+                    <li><a href="{{ "contacts" | relLangURL }}">Contacts</a></li>
                 </ul>
             </div>
         </div>

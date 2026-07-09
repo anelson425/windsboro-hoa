@@ -1,20 +1,38 @@
 {{ $masthead := resources.Get .Site.Params.masthead }}
 
-<nav id="navbar_top" class="navbar navbar-expand-lg fixed-top hoa-navbar">
+<div class="hoa-topbar">
     <div class="container">
-        <a class="navbar-brand text-white fw-bold" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-        <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span>Lee's Summit, Missouri &middot; 220 homes</span>
+        <div class="topbar-links">
+            <a href="{{ "new_resident_information" | relLangURL }}">New Residents</a>
+            <a href="{{ "calendar" | relLangURL }}">Calendar</a>
+            <a href="{{ "trash" | relLangURL }}">Trash</a>
+            <a href="{{ "links" | relLangURL }}">Links</a>
+        </div>
+    </div>
+</div>
+
+<nav id="navbar_top" class="navbar navbar-expand-lg hoa-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+            <span class="hoa-brand-mark">W</span>
+            <span>Windsboro</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="main_nav">
             <ul class="navbar-nav ms-auto align-items-lg-center">
-                {{ range .Site.Menus.main }}
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="{{ .URL }}">{{ .Name }}</a>
+                <li class="nav-item"><a class="nav-link" href="{{ "pool" | relLangURL }}">Pool</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ "ponds" | relLangURL }}">Ponds</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ "gallery" | relLangURL }}">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ "documents" | relLangURL }}">Documents</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ "contacts" | relLangURL }}">Contacts</a></li>
+                <li class="nav-item ms-lg-3">
+                    <a class="btn-paydues" href="{{ .Site.Params.payhoa_url }}" target="_blank" rel="noopener">Pay Dues</a>
                 </li>
-                {{ end }}
                 <li class="nav-item ms-lg-2">
-                    <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">☾</button>
+                    <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">&#9790;</button>
                 </li>
             </ul>
         </div>
@@ -22,20 +40,26 @@
 </nav>
 
 {{ if .IsHome }}
-<div class="hoa-hero" style="background-image: url({{ $masthead.RelPermalink }});">
-    <div class="hoa-hero-overlay"></div>
-    <div class="container py-5">
-        <div class="hoa-hero-content">
-            <h1>{{ .Title }}</h1>
-            <p class="lead mb-4">220 homes in Lee's Summit, Missouri &mdash; pool, ponds, and community.</p>
-            <a href="#content" class="btn btn-light btn-lg px-4">Learn More</a>
+<div class="hoa-hero">
+    <div class="hoa-hero-copy">
+        <div class="eyebrow">Welcome home</div>
+        <h1>A neighborhood built around green space &amp; five ponds.</h1>
+        <p>220 homes between Langsford Road and 50 Highway in Lee's Summit &mdash; wrapped in acres of green space, with a community pool and the Windsboro Waves swim team.</p>
+        <div class="hero-actions">
+            <a class="btn-hero-primary" href="{{ "new_resident_information" | relLangURL }}">New resident? Start here</a>
+            <a class="btn-hero-ghost" href="{{ "pool" | relLangURL }}">Explore the pool</a>
         </div>
     </div>
+    <div class="hoa-hero-media" style="background-image: url({{ $masthead.RelPermalink }});"></div>
 </div>
 {{ else }}
-<div class="page-header-band">
+{{ $band := "" }}
+{{ with .Params.band_image }}{{ $band = resources.Get . }}{{ end }}
+<div class="page-band{{ if $band }} page-band--photo{{ end }}"{{ if $band }} style="background-image:url({{ $band.RelPermalink }});"{{ end }}>
     <div class="container">
+        {{ with .Params.eyebrow }}<div class="eyebrow">{{ . }}</div>{{ end }}
         <h1>{{ .Title }}</h1>
+        {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
     </div>
 </div>
 {{ end }}

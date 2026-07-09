@@ -1,7 +1,83 @@
 {{ define "main" }}
-<div id="content" class="content">
+
+{{/* Community intro — rendered from content/_index.md */}}
+<div class="intro-band">
     <div class="container">
-        {{ .Content }}
+        <div class="eyebrow" style="color: var(--pine);">Our community</div>
+        <div class="content intro-lede" style="padding:0;">
+            {{ .Content }}
+        </div>
     </div>
 </div>
+
+{{/* Resident essentials */}}
+<div class="section">
+    <div class="container">
+        <h2 class="section-title">Resident essentials</h2>
+        <div class="ess-grid">
+            <a class="ess-card" href="{{ "hoa_dues" | relLangURL }}">
+                <div class="ess-num">01</div>
+                <h3>HOA Dues</h3>
+                <p>$799 per year, due January 1. Pay online through PayHOA.</p>
+            </a>
+            <a class="ess-card" href="{{ "pool" | relLangURL }}">
+                <div class="ess-num">02</div>
+                <h3>The Pool</h3>
+                <p>Open Memorial Day through Labor Day. Request a pool card.</p>
+            </a>
+            <a class="ess-card" href="{{ "documents" | relLangURL }}">
+                <div class="ess-num">03</div>
+                <h3>Documents</h3>
+                <p>Bylaws, covenants &amp; architectural change requests.</p>
+            </a>
+            <a class="ess-card" href="{{ "contacts" | relLangURL }}">
+                <div class="ess-num">04</div>
+                <h3>Contacts</h3>
+                <p>Reach the board, committee members, or general inbox.</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+{{/* Photo tiles */}}
+{{ $pond := resources.Get "images/gallery/pond_01.jpg" }}
+{{ $pool := resources.Get "images/gallery/pool_01.jpg" }}
+{{ $waves := resources.Get "images/gallery/windsboro_waves_01.jpg" }}
+<div class="section" style="padding-top:0;">
+    <div class="container">
+        <div class="tile-grid">
+            <a class="tile" href="{{ "ponds" | relLangURL }}" style="background-image:url({{ ($pond.Fill "800x600 q70").RelPermalink }});">
+                <span class="tile-caption"><strong>Five ponds</strong><span>Wildlife, fishing &amp; natural beauty year-round.</span></span>
+            </a>
+            <a class="tile" href="{{ "pool" | relLangURL }}" style="background-image:url({{ ($pool.Fill "800x600 q70").RelPermalink }});">
+                <span class="tile-caption"><strong>The pool</strong><span>Summer's favorite gathering place.</span></span>
+            </a>
+            <a class="tile" href="{{ "pool" | relLangURL }}" style="background-image:url({{ ($waves.Fill "800x600 q70").RelPermalink }});">
+                <span class="tile-caption"><strong>Windsboro Waves</strong><span>Our recreational summer swim team.</span></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+{{/* Dues CTA */}}
+<div class="dues-cta">
+    <div class="container">
+        <div>
+            <h2>2026 dues are due January 1</h2>
+            <p>Pay by bank transfer for about $1 in fees through your PayHOA account &mdash; request a pool card and submit architectural requests there too.</p>
+        </div>
+        <a class="btn-cta" href="{{ .Site.Params.payhoa_url }}" target="_blank" rel="noopener">Pay dues online &rarr;</a>
+    </div>
+</div>
+
+{{/* Get involved */}}
+<div class="section">
+    <div class="container" style="max-width:820px;">
+        <div class="eyebrow">Get involved</div>
+        <h2 class="section-title" style="color:var(--ink); margin-bottom:1rem;">Run by neighbors, for neighbors.</h2>
+        <p style="font-size:1.125rem; line-height:1.65; color:#54504a; margin:0 0 1.5rem;">The association is run by volunteers, and we're always looking for more help. If you'd like to get involved, reach out to the general inbox &mdash; we'd love to have you.</p>
+        <a class="btn-hero-ghost" href="mailto:{{ .Site.Data.contacts.general_inbox.email }}">{{ .Site.Data.contacts.general_inbox.email }}</a>
+    </div>
+</div>
+
 {{ end }}
