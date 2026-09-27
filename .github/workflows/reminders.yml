@@ -3,9 +3,9 @@ name: Yearly reminders
 
 on:
   schedule:
-    # November 1 — set next year's dues before January invoices
+    # November 1: set next year's dues before January invoices
     - cron: "0 14 1 11 *"
-    # March 1 — update board and committee contacts after elections
+    # March 1: update board and committee contacts after elections
     - cron: "0 14 1 3 *"
   workflow_dispatch:
     inputs:

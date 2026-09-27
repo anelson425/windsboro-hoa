@@ -1,8 +1,8 @@
 +++
 title = "Gallery"
-description = "Photos of the Windsboro neighborhood — ponds, community spaces, and more. Submit your own photos to be featured."
+description = "Photos of the Windsboro neighborhood, including ponds, community spaces, and more. Submit your own photos to be featured."
 eyebrow = "The neighborhood"
-subtitle = "Photos of the Windsboro neighborhood — ponds, pool, and community."
+subtitle = "Photos of the Windsboro neighborhood: ponds, pool, and community."
 +++
 
 

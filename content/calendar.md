@@ -1,6 +1,6 @@
 +++
 title = "Calendar"
-description = "Windsboro HOA community calendar — meetings, events, pool season, and more."
+description = "Windsboro HOA community calendar: meetings, events, pool season, and more."
 eyebrow = "Community"
 subtitle = "HOA meetings, community events, pool season, and more."
 +++
