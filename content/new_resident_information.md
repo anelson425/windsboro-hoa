@@ -1,6 +1,8 @@
 +++
 title = "New Resident Information"
 description = "Everything new Windsboro residents need to know — PayHOA registration, community rules, contacts, and events."
+eyebrow = "Welcome"
+band_image = "images/windsboro_masthead.jpg"
 +++
 
 Welcome to Windsboro! We're glad you're here. This page has everything you need to get settled into the community.

@@ -1,15 +1,14 @@
 {{/* Grid styling lives in style.css (.content ul.image-gallery). */}}
 {{ $dir := "images/gallery" }}
-{{ $data_file := index .Site.Data "images" }}
+{{ $data_file := index hugo.Data "images" }}
 {{ $data := index $data_file "gallery" }}
 
 <ul class="image-gallery">
   {{ range $data }}
     {{- $image := resources.Get (printf "%s/%s" $dir .file_name) -}}
-    {{- $imagetitle := index (split .file_name ".") 0 -}}
     <li>
-      <a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" title="{{ $imagetitle }}" class="lightbox-image" target="_blank">
-        <img src="{{ ($image.Fill "400x400 q60").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
+      <a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" title="{{ .description }}" class="lightbox-image" target="_blank">
+        <img src="{{ ($image.Fill "400x400 q60").Permalink }}" alt="{{ .description }}">
         <span>{{ .description }}</span>
       </a>
     </li>

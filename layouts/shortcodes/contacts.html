@@ -1,4 +1,4 @@
-{{ $data_file := index .Site.Data .Params.file_name }}
+{{ $data_file := index hugo.Data .Params.file_name }}
 {{ $data := index $data_file .Params.contact_type }}
 
 <div class="contact-group">
