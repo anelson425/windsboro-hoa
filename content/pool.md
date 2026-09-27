@@ -5,7 +5,7 @@ eyebrow = "Amenities"
 band_image = "images/gallery/pool_01.jpg"
 +++
 
-Our community pool is one of Windsboro's favorite summer gathering spots. A big thank you to the volunteers who help keep it a wonderful place for families all season long. Pool access requires a pool card — request yours through your PayHOA account. New to PayHOA? {{< payhoa_link "Register here" >}}.
+Our community pool is one of Windsboro's favorite summer gathering spots. A big thank you to the volunteers who help keep it a wonderful place for families all season long. Pool access requires a pool card. Request yours through your PayHOA account. New to PayHOA? {{< payhoa_link "Register here" >}}.
 
 ### Hours
 
@@ -26,7 +26,7 @@ Memorial Day Weekend through Labor Day Weekend
 * Exit the pool immediately when severe weather approaches. Never swim when lightning is in the area.
 * Residents must accompany all guests and are responsible for their supervision and behavior.
 * The pool is not available for private events or parties.
-* Help keep our pool clean — if you see a mess, please clean it up. We all share this space!
+* Help keep our pool clean. If you see a mess, please clean it up. We all share this space!
 
 ### Swim Team
 

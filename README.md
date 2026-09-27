@@ -51,12 +51,12 @@ band_image = "images/gallery/pool_01.jpg"    # photo background, path under asse
 
 ## Shortcodes
 
-- `{{< general_contact >}}` – general inbox mailto link
-- `{{< payhoa_link "Link text" >}}` – link to PayHOA
-- `{{< dues_amount >}}`, `{{< dues_year >}}` – values from `config.yaml`
-- `{{< file_link file="documents/x.pdf" name="Label" >}}` – link to a file in `assets/`
-- `{{< image image="images/x.png" title="Alt text" >}}` – resized image with full-size link
-- `{{< contacts file_name="contacts" contact_type="board_members" >}}`, `{{< links >}}`, `{{< image-gallery >}}` – render the data files above
+- `{{< general_contact >}}`: general inbox mailto link
+- `{{< payhoa_link "Link text" >}}`: link to PayHOA
+- `{{< dues_amount >}}`, `{{< dues_year >}}`: values from `config.yaml`
+- `{{< file_link file="documents/x.pdf" name="Label" >}}`: link to a file in `assets/`
+- `{{< image image="images/x.png" title="Alt text" >}}`: resized image with full-size link
+- `{{< contacts file_name="contacts" contact_type="board_members" >}}`, `{{< links >}}`, `{{< image-gallery >}}`: render the data files above
 
 ## Design
 
