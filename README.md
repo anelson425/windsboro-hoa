@@ -1,6 +1,6 @@
 # Windsboro HOA website
 
-Source for [www.windsboro.org](https://www.windsboro.org), a [Hugo](https://gohugo.io) static site. Pushes to `master` are built and deployed to GitHub Pages by `.github/workflows/hugo.yml`.
+Source for [www.windsboro.org](https://www.windsboro.org), a [Hugo](https://gohugo.io) static site. Pushes to `main` are built and deployed to GitHub Pages by `.github/workflows/hugo.yml`.
 
 ## Local development
 
