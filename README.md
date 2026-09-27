@@ -25,6 +25,15 @@ and open http://localhost:1313/.
 | Page text | `content/*.md` |
 | Theme (layout, header, footer, CSS) | `themes/hoa/` |
 
+## Automation (GitHub Actions)
+
+| Workflow | When | What |
+|----------|------|------|
+| `hugo.yml` | Push to `main`, Jan 1, manual | Build and deploy to GitHub Pages |
+| `hugo.yml` | Pull requests to `main` | Test build only (fails on any Hugo warning), no deploy |
+| `link-check.yml` | Mondays, manual | Checks every link on the built site; opens/updates a "Broken links found" issue |
+| `reminders.yml` | Nov 1, Mar 1, manual | Opens issues to update dues and contacts |
+
 ## Yearly checklist
 
 - Update `dues_amount` / `dues_year` in `config.yaml`.

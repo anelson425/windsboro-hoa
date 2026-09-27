@@ -1,0 +1,50 @@
+# Opens GitHub issues as reminders for the yearly site updates.
+name: Yearly reminders
+
+on:
+  schedule:
+    # November 1 — set next year's dues before January invoices
+    - cron: "0 14 1 11 *"
+    # March 1 — update board and committee contacts after elections
+    - cron: "0 14 1 3 *"
+  workflow_dispatch:
+    inputs:
+      reminder:
+        description: Which reminder to open
+        type: choice
+        options: [dues, contacts]
+
+permissions:
+  issues: write
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open reminder issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          WHICH: ${{ inputs.reminder || (github.event.schedule == '0 14 1 11 *' && 'dues') || 'contacts' }}
+        run: |
+          year=$(date +%Y)
+          if [ "$WHICH" = "dues" ]; then
+            next=$((year + 1))
+            title="Set $next HOA dues on the website"
+            body="Once the board sets $next dues, update the site:
+
+          - [ ] \`config.yaml\` → \`params.dues_amount\` and \`params.dues_year: \"$next\"\`
+          - [ ] Review \`content/hoa_dues.md\` (payment options, processing fees) for anything else that changed
+
+          The homepage and the HOA Dues page both read from \`config.yaml\`."
+          else
+            title="Update $year board and committee contacts"
+            body="After board elections, update the site:
+
+          - [ ] \`data/contacts.yaml\` → board members, committee members, emails
+          - [ ] Confirm the general inbox address is still correct"
+          fi
+          if [ -n "$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "\"$title\" in:title" --json number --jq '.[0].number')" ]; then
+            echo "Reminder already open: $title"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body "$body"
+          fi
