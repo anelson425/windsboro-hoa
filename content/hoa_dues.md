@@ -1,9 +1,10 @@
 +++
 title = "HOA Dues"
 description = "Windsboro HOA annual dues amount, due dates, payment options, and late payment policy."
+eyebrow = "Residents"
 +++
 
-Annual HOA dues are **$799.00 per year**. Dues for 2026 are due by **January 1, 2026**.
+Annual HOA dues are **{{< dues_amount >}} per year**. Dues for {{< dues_year >}} are due by **January 1, {{< dues_year >}}**.
 
 ### Payment Options
 
@@ -17,4 +18,4 @@ Per Article 5, Section 6 of the Covenants and Restrictions:
 
 > Any assessments, general or special, which are not paid when due shall be delinquent. If the assessment is not paid within sixty (60) days after the due date, the assessment shall bear a late fee of Ten and no/100 Dollars ($10.00) per month, and interest from the date of delinquency at the rate of six percent (6%) per annum until paid in full, and the Association may bring an action at law against the Owner personally obligated to pay the same, and in addition foreclose the lien against the property.
 
-For questions about dues, please contact the HOA treasurer via the <a href="../contacts">Contacts page</a>.
+For questions about dues, please contact the HOA treasurer via the [Contacts page](/contacts).

@@ -1,6 +1,7 @@
 +++
 title = "Documents"
 description = "Windsboro HOA governing documents including bylaws, covenants, and the architectural change request process."
+eyebrow = "Residents"
 +++
 
 <h3>Bylaws and Covenants &amp; Restrictions</h3>

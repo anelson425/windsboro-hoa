@@ -1,4 +1,4 @@
-{{ $data := index .Site.Data "links" }}
+{{ $data := index hugo.Data "links" }}
 <div class="links-grid">
     {{ range $data }}
     <p>

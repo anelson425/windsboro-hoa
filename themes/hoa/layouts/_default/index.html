@@ -18,7 +18,7 @@
             <a class="ess-card" href="{{ "hoa_dues" | relLangURL }}">
                 <div class="ess-num">01</div>
                 <h3>HOA Dues</h3>
-                <p>$799 per year, due January 1. Pay online through PayHOA.</p>
+                <p>{{ .Site.Params.dues_amount }} per year, due January 1. Pay online through PayHOA.</p>
             </a>
             <a class="ess-card" href="{{ "pool" | relLangURL }}">
                 <div class="ess-num">02</div>
@@ -63,7 +63,7 @@
 <div class="dues-cta">
     <div class="container">
         <div>
-            <h2>2026 dues are due January 1</h2>
+            <h2>{{ .Site.Params.dues_year }} dues are due January 1</h2>
             <p>Pay by bank transfer for about $1 in fees through your PayHOA account &mdash; request a pool card and submit architectural requests there too.</p>
         </div>
         <a class="btn-cta" href="{{ .Site.Params.payhoa_url }}" target="_blank" rel="noopener">Pay dues online &rarr;</a>
@@ -76,7 +76,7 @@
         <div class="eyebrow">Get involved</div>
         <h2 class="section-title" style="color:var(--ink); margin-bottom:1rem;">Run by neighbors, for neighbors.</h2>
         <p style="font-size:1.125rem; line-height:1.65; color:#54504a; margin:0 0 1.5rem;">The association is run by volunteers, and we're always looking for more help. If you'd like to get involved, reach out to the general inbox &mdash; we'd love to have you.</p>
-        <a class="btn-hero-ghost" href="mailto:{{ .Site.Data.contacts.general_inbox.email }}">{{ .Site.Data.contacts.general_inbox.email }}</a>
+        <a class="btn-hero-ghost" href="mailto:{{ hugo.Data.contacts.general_inbox.email }}">{{ hugo.Data.contacts.general_inbox.email }}</a>
     </div>
 </div>
 

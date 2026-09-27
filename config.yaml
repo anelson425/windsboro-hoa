@@ -1,31 +1,13 @@
-languageCode: en-us
+locale: en-US
 title: Windsboro HOA
 theme: hoa
+disableKinds: [taxonomy, term]
 params:
   masthead: images/windsboro_masthead.jpg
   payhoa_url: https://app.payhoa.com/auth/join/20117-windsboro
-menu:
-  main:
-    - name: Links
-      url: /links
-    - name: Documents
-      url: /documents
-    - name: Contacts
-      url: /contacts
-    - name: Pool
-      url: /pool
-    - name: Ponds
-      url: /ponds
-    - name: Gallery
-      url: /gallery
-    - name: HOA Dues
-      url: /hoa_dues
-    - name: Calendar
-      url: /calendar
-    - name: New Resident Information
-      url: /new_resident_information
-    - name: Trash
-      url: /trash
+  # Update these each year when new dues are set
+  dues_amount: "$799"
+  dues_year: "2026"
 copyright: Windsboro HOA
 markup:
   defaultMarkdownHandler: "goldmark"
@@ -33,4 +15,3 @@ markup:
     renderer:
       unsafe: true
 baseURL: 'https://www.windsboro.org'
-googleAnalyticsID: G-VE91XK8WKZ
