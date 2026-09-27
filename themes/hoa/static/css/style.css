@@ -362,7 +362,8 @@ body {
   font-weight: 600;
   color: var(--pine);
   text-decoration: none;
-  display: inline-block;
+  display: block;
+  width: fit-content;
   margin-bottom: 0.35rem;
 }
 .content .links-grid p a:hover { color: var(--terracotta); }
