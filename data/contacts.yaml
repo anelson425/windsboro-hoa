@@ -6,16 +6,5 @@ board_members:
   - name: Andy Nelson
     title: Secretary & Treasurer
     email: treasurer.windsboro@gmail.com
-committee_members:
-  - name: Stan Chandler
-    title: Architectural Review
-  - name: Jim Jennings
-    title: Bylaws and Covenant & Restrictions
-  - name: Stan Chandler
-    title: Grounds
-  - name: Stan Chandler
-    title: Pond
-  - name: Andy Nelson
-    title: Pool
 general_inbox:
   email: windsboro.charleston.hoa@gmail.com
