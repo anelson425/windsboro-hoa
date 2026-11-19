@@ -6,8 +6,8 @@ params:
   masthead: images/windsboro_masthead.jpg
   payhoa_url: https://app.payhoa.com/auth/join/20117-windsboro
   # Update these each year when new dues are set
-  dues_amount: "$799"
-  dues_year: "2026"
+  dues_amount: "$806"
+  dues_year: "2027"
 copyright: Windsboro HOA
 markup:
   defaultMarkdownHandler: "goldmark"

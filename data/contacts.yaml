@@ -1,15 +1,11 @@
 board_members:
-  - title: President
-    name: Brendon Collier
-  - name: Jim Jennings
+  - name: Stan Chandler
+    title: President
+  - name: Bailey Carr
     title: Vice President
   - name: Andy Nelson
-    title: Treasurer
+    title: Secretary & Treasurer
     email: treasurer.windsboro@gmail.com
-  - name: Bailey Carr
-    title: Secretary
-  - name: Stan Chandler
-    title: Member at Large
 committee_members:
   - name: Stan Chandler
     title: Architectural Review
