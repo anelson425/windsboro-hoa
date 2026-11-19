@@ -10,7 +10,10 @@ Annual HOA dues are **{{< dues_amount >}} per year**. Dues for {{< dues_year >}}
 
 **By mail:** You will receive an invoice and remittance slip in January. The remittance slip will include the address for mailing payment to our payment processor. Please note that all transactions are final. The HOA does not offer refunds, and your cancelled check serves as your receipt.
 
-**Online:** Electronic payments can be made through your PayHOA account. {{< payhoa_link "Register or log in here" >}}. Online payments include processing fees of approximately **$16 for credit card** or **$1 for bank transfer**.
+**Online:** Electronic payments can be made through your PayHOA account. {{< payhoa_link "Register or log in here" >}}. Online payments include a processing fee:
+
+- **Card:** 3.5% + 50¢ per payment (about $29 on a full year's dues)
+- **Bank transfer (ACH):** $2.45 per payment
 
 ### Late Payments
 
