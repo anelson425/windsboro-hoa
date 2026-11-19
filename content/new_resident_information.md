@@ -22,6 +22,6 @@ Before making any changes to the exterior of your home, including fencing, lands
 
 ### Stay Connected
 
-Check the [Calendar](/calendar) for upcoming HOA meetings and community events. To reach the board or a committee member, visit the [Contacts](/contacts) page.
+Check the [Calendar](/calendar) for upcoming HOA meetings and community events. To reach the board, visit the [Contacts](/contacts) page.
 
 We encourage all new residents to attend the annual homeowners meeting. It's a great way to meet neighbors and get involved in the community. If you have any questions not answered here, don't hesitate to reach out to the general inbox.
