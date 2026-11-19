@@ -18,7 +18,7 @@ and open http://localhost:1313/.
 |------|-------|
 | Dues amount and year (homepage + dues page) | `config.yaml` → `params.dues_amount`, `params.dues_year` |
 | PayHOA link used across the site | `config.yaml` → `params.payhoa_url` |
-| Board / committee members, general inbox | `data/contacts.yaml` |
+| Board members, general inbox | `data/contacts.yaml` |
 | Links page | `data/links.yaml` |
 | Gallery photos and captions | `assets/images/gallery/` + `data/images.yaml` |
 | PDFs (bylaws, covenants) | `assets/documents/` |
